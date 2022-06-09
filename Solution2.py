@@ -29,7 +29,6 @@ class ModelRotation:
         
         
     def plotmodel(self):
-        
         #Creating plot
         figure = pyplot.figure()
         axes = mplot3d.Axes3D(figure)
