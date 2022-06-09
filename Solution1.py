@@ -25,7 +25,7 @@ try:
     # Rotating model 180 degrees around the y-axis
     retrievedModel.rotate([0, 1, 0], math.radians(180))
 
-    # Saving model as 'raw_039.stl'
+    # Saving model as 'raw_039_rotated.stl'
     retrievedModel.save("raw_039_rotated.stl")
     
     RotatedModel = mesh.Mesh.from_file('raw_039_rotated.stl')
