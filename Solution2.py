@@ -19,7 +19,7 @@ class ModelRotation:
         # Rotating model 180 degrees around the y-axis
         self.retrievedModel.rotate([0, 1, 0], math.radians(180))
         
-        # Saving model as 'raw_039.stl'
+        # Saving model as 'raw_039_rotated.stl'
         self.retrievedModel.save("raw_039_rotated.stl")
         
         # Opening rotated model
